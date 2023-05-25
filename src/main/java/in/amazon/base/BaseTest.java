@@ -43,7 +43,7 @@ public class BaseTest {
     public void beforeMethodMethod() {
 
         //extent = new ExtentReports();
-        spark = new ExtentSparkReporter("C:\\Users\\vyom\\eclipse-workspace\\framework\\reports\\extentreport.html");
+        spark = new ExtentSparkReporter("C:\\Users\\vyom\\Documents\\GitHub\\amazon-framework\\reports\\extentreport.html");
         extent.attachReporter(spark);
     	
         WebDriverManager.chromedriver().setup();
